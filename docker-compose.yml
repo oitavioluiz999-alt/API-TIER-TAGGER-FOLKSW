@@ -1,0 +1,38 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: tiertagger-db
+    environment:
+      POSTGRES_DB: tiertagger
+      POSTGRES_USER: tiertagger
+      POSTGRES_PASSWORD: tiertagger
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U tiertagger"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build: .
+    container_name: tiertagger-api
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_URL: jdbc:postgresql://db:5432/tiertagger
+      DB_USERNAME: tiertagger
+      DB_PASSWORD: tiertagger
+      JWT_SECRET: ${JWT_SECRET:-dev-insecure-secret-change-me-please-1234567890}
+      SPRING_PROFILES_ACTIVE: prod
+      PORT: 8080
+    ports:
+      - "8080:8080"
+
+volumes:
+  pgdata:
