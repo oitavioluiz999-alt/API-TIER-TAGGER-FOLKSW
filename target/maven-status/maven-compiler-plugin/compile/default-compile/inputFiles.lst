@@ -1,72 +1,72 @@
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/TierTaggerApiApplication.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/config/AppProperties.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/config/CacheConfig.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/config/CorsConfig.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/config/OpenApiConfig.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/config/SeedDataConfig.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/config/SessionCleanupTask.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/config/WebSocketConfig.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/controller/AdminController.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/controller/AuthController.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/controller/HistoryController.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/controller/LeaderboardController.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/controller/MetadataController.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/controller/PlayerController.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/controller/SearchController.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/controller/TierController.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/controller/VersionController.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/ApiMessage.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/ErrorResponse.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/HistoryEntryDto.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/LeaderboardEntry.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/LeaderboardResponse.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/LoginRequest.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/LoginResponse.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/LogoutRequest.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/ModeResponse.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/PlayerResponse.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/PlayerTierDto.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/RefreshRequest.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/TierRemoveRequest.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/TierResponse.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/TierSetRequest.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/TierUpdateMessage.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/TierUpdatePayload.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/UserDto.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/VersionResponse.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/dto/WebSocketMessage.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/entity/ApiKey.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/entity/AppUser.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/entity/HistoryEntry.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/entity/Mode.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/entity/Player.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/entity/PlayerTier.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/entity/Session.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/entity/Tier.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/exception/BusinessException.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/exception/GlobalExceptionHandler.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/repository/ApiKeyRepository.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/repository/AppUserRepository.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/repository/HistoryRepository.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/repository/ModeRepository.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/repository/PlayerRepository.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/repository/PlayerTierRepository.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/repository/SessionRepository.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/repository/TierRepository.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/security/ApiKeyAuthenticationFilter.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/security/JwtAuthenticationFilter.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/security/JwtService.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/security/RestAuthenticationEntryPoint.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/security/SecurityConfig.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/security/UserPrincipal.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/security/ratelimit/RateLimitFilter.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/security/ratelimit/RateLimiter.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/service/AuthService.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/service/CacheService.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/service/HistoryService.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/service/LeaderboardService.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/service/MetadataService.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/service/PlayerService.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/service/TierService.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/websocket/TierWebSocketHandler.java
-/home/otavio/Área de trabalho/tier tagger/TierTagger/api/src/main/java/com/tiertagger/api/websocket/WebSocketBroadcastService.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/TierTaggerApiApplication.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/config/AppProperties.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/config/CacheConfig.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/config/CorsConfig.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/config/OpenApiConfig.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/config/SeedDataConfig.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/config/SessionCleanupTask.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/config/WebSocketConfig.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/controller/AdminController.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/controller/AuthController.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/controller/HistoryController.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/controller/LeaderboardController.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/controller/MetadataController.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/controller/PlayerController.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/controller/SearchController.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/controller/TierController.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/controller/VersionController.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/ApiMessage.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/ErrorResponse.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/HistoryEntryDto.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/LeaderboardEntry.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/LeaderboardResponse.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/LoginRequest.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/LoginResponse.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/LogoutRequest.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/ModeResponse.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/PlayerResponse.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/PlayerTierDto.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/RefreshRequest.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/TierRemoveRequest.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/TierResponse.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/TierSetRequest.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/TierUpdateMessage.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/TierUpdatePayload.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/UserDto.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/VersionResponse.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/dto/WebSocketMessage.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/entity/ApiKey.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/entity/AppUser.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/entity/HistoryEntry.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/entity/Mode.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/entity/Player.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/entity/PlayerTier.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/entity/Session.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/entity/Tier.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/exception/BusinessException.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/exception/GlobalExceptionHandler.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/repository/ApiKeyRepository.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/repository/AppUserRepository.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/repository/HistoryRepository.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/repository/ModeRepository.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/repository/PlayerRepository.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/repository/PlayerTierRepository.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/repository/SessionRepository.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/repository/TierRepository.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/security/ApiKeyAuthenticationFilter.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/security/JwtAuthenticationFilter.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/security/JwtService.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/security/RestAuthenticationEntryPoint.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/security/SecurityConfig.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/security/UserPrincipal.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/security/ratelimit/RateLimitFilter.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/security/ratelimit/RateLimiter.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/service/AuthService.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/service/CacheService.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/service/HistoryService.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/service/LeaderboardService.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/service/MetadataService.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/service/PlayerService.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/service/TierService.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/websocket/TierWebSocketHandler.java
+/workspaces/API-TIER-TAGGER-FOLKSW/src/main/java/com/tiertagger/api/websocket/WebSocketBroadcastService.java
